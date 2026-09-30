@@ -1,0 +1,30 @@
+UNPACK JORDAN — FIREBASE LOGIN SETUP
+
+1) Open Firebase Console.
+2) Open your project.
+3) Go to Authentication.
+4) Click Get started.
+5) Open Sign-in method.
+6) Enable Email/Password.
+
+Then:
+7) Project Settings > General.
+8) Scroll to Your apps > Web app.
+9) Copy the firebaseConfig values.
+10) Open index.html in VS Code.
+11) Search for:
+    const firebaseConfig = {
+12) Replace all PASTE_... values with your real Firebase values.
+
+Then run the site with Live Server.
+
+LOGIN THEME
+- Matches Desert After Dark.
+- Same entry image.
+- Gold / sand / dark glass styling.
+- Sign In and Create Account tabs.
+- Logout button appears after sign-in.
+
+IMPORTANT
+Do NOT put secret admin keys in this file.
+The normal Firebase web config is okay to use in frontend code.
